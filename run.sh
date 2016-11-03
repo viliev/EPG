@@ -6,4 +6,4 @@ cd /home/hgenev/EPG/
 
 git add -A
 git commit -m "Regular EPG update"
-git push 
+git push

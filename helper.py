@@ -1,5 +1,5 @@
 # -*- coding: utf8 -*-
-import urllib2
+import urllib2, shutil
 import os, StringIO, gzip, urllib2
 import xml.etree.ElementTree as ET
 from ids import *
@@ -25,6 +25,10 @@ def extract(outFile):
       out.write(s)
   except Exception, er:
     log(er)
+
+def zip(inFile, outFile):
+  with open(inFile, 'rb') as f_in, gzip.open(outFile, 'wb') as f_out:
+    shutil.copyfileobj(f_in, f_out)  
 
 def download(epgUrl, outFile):
   try:

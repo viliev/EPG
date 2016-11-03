@@ -32,6 +32,9 @@ try:
     log("Extracted %s channels" % d)
     n += d
   
+  #zip epg file
+  zip(OUTPUT_XML, OUTPUT_XML + ".gz")
+  
 except KeyboardInterrupt:
   log('EPG generation interrupted by user!')
 except Exception, er:
