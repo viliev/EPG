@@ -1,0 +1,9 @@
+serbian-guide.xml.tar.gz is new, download skipped!
+bulgarian-guide.xml.tar.gz is new, download skipped!
+
+### Parsing started for 2 files!
+Parsing file: serbian-guide.xml
+Extracted 144 channels
+Parsing file: bulgarian-guide.xml
+Extracted 186 channels
+330 channels saved in file alltv-guide.xml (11.7 MB)
