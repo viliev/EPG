@@ -33,6 +33,7 @@ try:
     n += d
   
   #zip epg file
+  log("Zipping XML file to %s" % OUTPUT_XML + ".gz")
   zip(OUTPUT_XML, OUTPUT_XML + ".gz")
   
 except KeyboardInterrupt:

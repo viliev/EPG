@@ -6,4 +6,5 @@ Parsing file: serbian-guide.xml
 Extracted 144 channels
 Parsing file: bulgarian-guide.xml
 Extracted 186 channels
+Zipping XML file to alltv-guide.xml.gz
 330 channels saved in file alltv-guide.xml (11.7 MB)
