@@ -1,4 +1,5 @@
-serbian-guide.xml.tar.gz is new, download skipped!
+Downloading EPG from URL http://epg.serbianforum.org/epg.xml.gz
+Server returned 200
 bulgarian-guide.xml.tar.gz is new, download skipped!
 
 ### Parsing started for 2 files!
