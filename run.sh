@@ -2,6 +2,8 @@
 
 cd /home/hgenev/EPG/
 
+git pull
+
 ./generate.py
 
 git add -A
