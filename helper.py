@@ -16,14 +16,18 @@ xmltv = ET.Element('tv')
 xmltv.set('version', '1.0')
 xmltv.append(ET.Comment('Automatically generated for Kodibg.org. Used EPGs from epg.kodibg.org, github.com/txt3rob/kodi-sky-epg/,  epg.serbianforum.org'))
 
-def extract(outFile):
+def extract(inFile):
   try:
-    gz = gzip.GzipFile(outFile, 'rb')
+    outFile = inFile.replace('.gz', '')
+    log("Extracting file %s to %s" % (inFile, outFile))
+    gz = gzip.GzipFile(inFile, 'rb')
     s = gz.read()
     gz.close()
-    with file(outFile.replace('.tar.gz', ''), 'wb') as out:
+    with file(outFile, 'wb') as out:
       out.write(s)
+      return outFile
   except Exception, er:
+    return False
     log(er)
 
 def zip(inFile, outFile):
@@ -32,14 +36,11 @@ def zip(inFile, outFile):
 
 def download(epgUrl, outFile):
   try:
-    if isExpired(outFile):
-      log("Downloading EPG from URL %s" % (epgUrl))
-      response = urllib2.urlopen(epgUrl)
-      log("Server returned %s" % response.getcode())
-      with open(outFile, "wb") as c:
-        c.write(response.read())
-    else:
-      log("%s is new, download skipped!" % outFile)
+    log("Downloading EPG from URL %s" % (epgUrl))
+    response = urllib2.urlopen(epgUrl)
+    log("Server returned %s" % response.getcode())
+    with open(outFile, "wb") as c:
+      c.write(response.read())
   except Exception, er:
     log(er)
 
@@ -58,16 +59,29 @@ def isExpired(file):
     log(er)
     return True
   
-def parse(file_name, SHORTEN_DESC = 512):
+def parse(fileName, idsFromChannelName = False, SHORTEN_DESC = 512):
   global n, ids, root
   local_n = n
   _ids = ids[:] #copy by value not by reference
-  tree = ET.parse(file_name)
-  log('Parsing file: %s' % file_name)
-  w = open(file_name.replace('.xml', '-names.txt'), 'w')
+  tree = ET.parse(fileName)
+  log('Parsing file: %s' % fileName)
+  if not os.path.isfile(fileName): 
+    log("Input file not found %s " % fileName)
+    return 0
+  w = open(fileName.replace('.xml', '-names.txt'), 'w')
+  idsMap = {}
+  
   for elem in tree.iter():
     if elem.tag == 'channel':
       id = elem.attrib["id"].encode('utf-8')
+      channelName = elem.find('display-name').text.encode('utf-8')
+      if idsFromChannelName: #Create a list of IDs matching the channel names
+        #log("id %s" % id)
+        idsMap[id] = channelName
+        #log(idsMap[id])
+        id = channelName
+        elem.attrib["id"] = channelName.decode('utf-8')
+        
       w.write(id + "\n")
       if id in _ids:
         #remove url tag to save space
@@ -81,11 +95,23 @@ def parse(file_name, SHORTEN_DESC = 512):
           
         xmltv.append(elem)
         n += 1
-        ids.remove(id) #remove id so it is skipped when checking the next file
+        
+        try: 
+          log("Removing channel %s" % channelName)
+          ids.remove(channelName) #remove id so it is skipped when checking the next file
+        except Exception, er:
+          log(er)
     
+    #log("idsMap %s" % len(idsMap))
+    #print idsMap
+    #return 0
     if elem.tag == 'programme':
       id = elem.attrib["channel"].encode('utf-8')
+      if idsFromChannelName:
+        id = idsMap[id]
+        
       if id in _ids:
+        elem.attrib["channel"] = id.decode('utf-8')
         if SHORTEN_DESC:
           desc = elem.find('desc')
           if desc is not None and desc.text is not None:
@@ -94,7 +120,8 @@ def parse(file_name, SHORTEN_DESC = 512):
               substringed = desc.text[:SHORTEN_DESC] + "..."
               desc.text = substringed
               size = len(substringed)
-              
+      
+      
         xmltv.append(elem)
   w.close()
   d = (n - local_n)

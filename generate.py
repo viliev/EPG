@@ -11,25 +11,35 @@ OUTPUT_XML = 'alltv-guide.xml' # Output XML name
 
 ### URLs and output files
 epgs = [
-  {"url":"http://epg.serbianforum.org/epg.xml.gz", "outFile":"serbian-guide.xml.tar.gz"},
-  #{"url":"http://epg.kodibg.org/dl.php", "outFile":"bulgarian-guide.xml.tar.gz"},
-  {"url":"https://dl.dropboxusercontent.com/s/xg6c7av61p1jdoq/epg.xml.gz", "outFile":"bulgarian-guide.xml.tar.gz"},
-  {"url":"http://www.teleguide.info/download/new3/xmltv.xml.gz", "outFile":"russian-guide.xml.tar.gz"},
+  {"url":"http://epg.serbianforum.org/epg.xml.gz", "outFile":"serbian-guide.xml.gz"},
+  {"url":"http://epg.kodibg.org/dl.php", "outFile":"bulgarian-guide.xml.gz"},
+  #{"url":"https://dl.dropboxusercontent.com/s/xg6c7av61p1jdoq/epg.xml.gz", "outFile":"bulgarian-guide.xml.gz"},
+  {"url":"http://www.teleguide.info/download/new3/xmltv.xml.gz", "outFile":"russian-guide.xml.gz"},
 ]
-  
+
+epgFiles = []
+
 ### Logic
 try:
   # Download EPGs
   for e in epgs:
-    download(e["url"], e["outFile"])
-    extract(e["outFile"])
-  
+    out = e["outFile"]
+    
+    if isExpired(out):
+      download(e["url"], out)
+    else:
+      log("%s is new, download skipped!" % out)
+    xmlName = extract(out)
+    if xmlName:
+      epgFiles.append(xmlName)
   #Build EPG files 
-  epg_files = [e["outFile"].replace('.tar.gz', '') for e in epgs]
-  log("\n### Parsing started for %s files!" % len(epg_files))
+  log("\n### Parsing started for %s files!" % len(epgFiles))
   n = 0
-  for f in epg_files:
-    d = parse(f, SHORTEN_DESC)
+  for f in epgFiles:
+    if 'russian' in f: #Get ids from <channel-name> tag in XMLTV
+      d = parse(f, True) 
+    else:
+      d = parse(f)
     log("Extracted %s channels" % d)
     n += d
   
