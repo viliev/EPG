@@ -13,7 +13,8 @@ OUTPUT_XML = 'alltv-guide.xml' # Output XML name
 epgs = [
   {"url":"http://epg.serbianforum.org/epg.xml.gz", "outFile":"serbian-guide.xml.tar.gz"},
   #{"url":"http://epg.kodibg.org/dl.php", "outFile":"bulgarian-guide.xml.tar.gz"},
-  {"url":"https://dl.dropboxusercontent.com/s/xg6c7av61p1jdoq/epg.xml.gz", "outFile":"bulgarian-guide.xml.tar.gz"}
+  {"url":"https://dl.dropboxusercontent.com/s/xg6c7av61p1jdoq/epg.xml.gz", "outFile":"bulgarian-guide.xml.tar.gz"},
+  {"url":"http://www.teleguide.info/download/new3/xmltv.xml.gz", "outFile":"russian-guide.xml.tar.gz"},
 ]
   
 ### Logic
