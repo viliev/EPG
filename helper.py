@@ -16,7 +16,7 @@ xmltv = ET.Element('tv')
 xmltv.set('version', '1.0')
 xmltv.append(ET.Comment('Automatically generated for Kodibg.org. Used EPGs from epg.kodibg.org, github.com/txt3rob/kodi-sky-epg/,  epg.serbianforum.org'))
 
-def extractName(inFile):
+def extract(inFile):
   try:
     outFile = inFile.replace('.gz', '')
     log("Extracting file %s to %s" % (inFile, outFile))
@@ -25,10 +25,10 @@ def extractName(inFile):
     gz.close()
     with file(outFile, 'wb') as out:
       out.write(s)
-      return outFile
+    return outFile
   except Exception, er:
-    return False
     log(er)
+    return False
 
 def zip(inFile, outFile):
   with open(inFile, 'rb') as f_in, gzip.open(outFile, 'wb') as f_out:
@@ -97,7 +97,7 @@ def parse(fileName, idsFromChannelName = False, SHORTEN_DESC = 512):
         n += 1
         
         try: 
-          log("Removing channel %s" % channelName)
+          log("Added channel %s, removed from further search" % channelName)
           ids.remove(channelName) #remove id so it is skipped when checking the next file
         except Exception, er:
           log(er)
