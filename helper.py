@@ -16,7 +16,7 @@ xmltv = ET.Element('tv')
 xmltv.set('version', '1.0')
 xmltv.append(ET.Comment('Automatically generated for Kodibg.org. Used EPGs from epg.kodibg.org, github.com/txt3rob/kodi-sky-epg/,  epg.serbianforum.org'))
 
-def extract(inFile):
+def extractName(inFile):
   try:
     outFile = inFile.replace('.gz', '')
     log("Extracting file %s to %s" % (inFile, outFile))

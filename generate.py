@@ -29,7 +29,7 @@ try:
       download(e["url"], out)
     else:
       log("%s is new, download skipped!" % out)
-    xmlName = extract(out)
+    xmlName = extractName(out)
     if xmlName:
       epgFiles.append(xmlName)
   #Build EPG files 
