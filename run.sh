@@ -1,12 +1,15 @@
 #!/bin/bash -e
+arg=""
+if [[ $@ == "-f" ]]; then echo "Forced download!"; arg="-f"; fi
 
 cd ~/EPG/
 #pull recent updates
-git pull
+#git pull
 
 #Run the collector
 cd ~/epg-collector/
-./generate.py
+echo "Using argument=$arg"
+./generate.py ${arg}
 
 cp ./alltv-guide.xml ~/EPG/
 cp ./alltv-guide.xml ~/EPG/epg.xml
