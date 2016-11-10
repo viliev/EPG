@@ -8,7 +8,9 @@ git pull
 cd ~/epg-collector/
 ./generate.py
 
+cp ./alltv-guide.xml ~/EPG/
 cp ./alltv-guide.xml ~/EPG/epg.xml
+cp ./alltv-guide.xml.gz ~/EPG/
 cp ./alltv-guide.xml.gz ~/EPG/epg.xml.gz
 
 
