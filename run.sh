@@ -13,8 +13,8 @@ echo "Using argument=$arg"
 
 cp ./epg.xml ~/EPG/
 cp ./epg.xml ~/EPG/alltv-guide.xml
-cp ./alltv-guide.xml.gz ~/EPG/
-cp ./alltv-guide.xml.gz ~/EPG/epg.xml.gz
+cp ./epg.xml.gz ~/EPG/
+cp ./epg.xml.gz ~/EPG/alltv-guide.xml.gz
 
 
 #commit EPG update
