@@ -1,0 +1,427 @@
+Forced download!
+Already up-to-date.
+Using argument=-f
+### Forced download enabled!
+### #############################
+EPG COLLECTOR
+#########################
+### Downloading EPG from URL https://dl.dropboxusercontent.com/s/xg6c7av61p1jdoq/epg.xml.gz
+### Server status 200, size: 780 Kb
+### Extracting file bulgarian-guide.xml.gz to bulgarian-guide.xml
+### Adding bulgarian-guide.xml to epgFiles[]
+### Downloading EPG from URL http://www.teleguide.info/download/new3/xmltv.xml.gz
+### Server status 200, size: 3151 Kb
+### Extracting file russian-guide.xml.gz to russian-guide.xml
+### Adding russian-guide.xml to epgFiles[]
+### Downloading EPG from URL http://epg.serbianforum.org/epg.xml.gz
+### Server status 200, size: 5136 Kb
+### Extracting file serbian-guide.xml.gz to serbian-guide.xml
+### Adding serbian-guide.xml to epgFiles[]
+### 
+### Parsing started for 3 files!
+### Parsing file: bulgarian-guide.xml
+### Added channel 24kitchen, removed from further search
+### Added channel 359TV, removed from further search
+### Added channel amc, removed from further search
+### Added channel AXN, removed from further search
+### Added channel AXNBlack, removed from further search
+### Added channel AXNWhite, removed from further search
+### Added channel agroTV, removed from further search
+### Added channel Alfa, removed from further search
+### Added channel AnimalPlanet, removed from further search
+### Added channel AutoMotorSport, removed from further search
+### Added channel ActionPlus, removed from further search
+### Added channel BNTWorld, removed from further search
+### Added channel BNT1, removed from further search
+### Added channel BNT2, removed from further search
+### Added channel BNTHD, removed from further search
+### Added channel BulgariaOnAir, removed from further search
+### Added channel Bloomberg, removed from further search
+### Added channel BoxTV, removed from further search
+### Added channel bTV, removed from further search
+### Added channel bTVAction, removed from further search
+### Added channel bTVComedy, removed from further search
+### Added channel bTVCinema, removed from further search
+### Added channel bTVLady, removed from further search
+### Added channel Vratza, removed from further search
+### Added channel VTK, removed from further search
+### Added channel Boomerang, removed from further search
+### Added channel BGMusicChannel, removed from further search
+### Added channel BabyTV, removed from further search
+### Added channel BiT, removed from further search
+### Added channel Balkanika, removed from further search
+### Added channel BulHistory, removed from further search
+### Added channel BrazzersTVEurope, removed from further search
+### Added channel CartoonNetwork, removed from further search
+### Added channel City, removed from further search
+### Added channel Cinemax, removed from further search
+### Added channel Cinemax2, removed from further search
+### Added channel CNN, removed from further search
+### Added channel ChernoMore, removed from further search
+### Added channel CBSReality, removed from further search
+### Added channel CBSDrama, removed from further search
+### Added channel CI, removed from further search
+### Added channel ComedyCentral, removed from further search
+### Added channel ComedyPlus, removed from further search
+### Added channel CinemaPlus, removed from further search
+### Added channel dummy, removed from further search
+### Added channel Diema, removed from further search
+### Added channel DiemaFamily, removed from further search
+### Added channel DiemaSport, removed from further search
+### Added channel DiemaSport2, removed from further search
+### Added channel DiscoveryHDShowcase, removed from further search
+### Added channel Discovery, removed from further search
+### Added channel DiscoveryWorld, removed from further search
+### Added channel DiscoveryScience, removed from further search
+### Added channel DuckTV, removed from further search
+### Added channel Disney, removed from further search
+### Added channel DisneyJunior, removed from further search
+### Added channel DocuBox, removed from further search
+### Added channel DaVinciLearning, removed from further search
+### Added channel DSTV, removed from further search
+### Added channel DMSat, removed from further search
+### Added channel DeluxeLoungeHD, removed from further search
+### Added channel DestinationBG, removed from further search
+### Added channel Eurocom, removed from further search
+### Added channel tveurope, removed from further search
+### Added channel EKids, removed from further search
+### EKids list.remove(x): x not in list
+### Added channel Eurosport1, removed from further search
+### Added channel Eurosport2, removed from further search
+### Added channel EnglishClubTV, removed from further search
+### Added channel FolklorTV, removed from further search
+### Added channel FENTV, removed from further search
+### Added channel FenFolk, removed from further search
+### Added channel FOX, removed from further search
+### Added channel FOXLife, removed from further search
+### Added channel FOXCrime, removed from further search
+### Added channel FineLiving, removed from further search
+### Added channel FPlus, removed from further search
+### Added channel FilmPlus, removed from further search
+### Added channel FashionTV, removed from further search
+### Added channel FoodNetworkHD, removed from further search
+### Added channel Fiesta, removed from further search
+### Added channel FilmBoXtraHD, removed from further search
+### Added channel FightBox, removed from further search
+### Added channel FilmBoxPlusHD, removed from further search
+### Added channel FixFoxy, removed from further search
+### Added channel History, removed from further search
+### Added channel HobbyTV, removed from further search
+### Added channel HobbyTVHD, removed from further search
+### Added channel HobbyLovHD, removed from further search
+### Added channel HBOHD, removed from further search
+### Added channel HBOComedy, removed from further search
+### Added channel HBO3, removed from further search
+### Added channel HustlerTV, removed from further search
+### Added channel HitMix, removed from further search
+### Added channel HMTV, removed from further search
+### Added channel ID, removed from further search
+### Added channel IDXtra, removed from further search
+### Added channel JimJam, removed from further search
+### Added channel Jukebox, removed from further search
+### Added channel Kanal3, removed from further search
+### Added channel KinoNova, removed from further search
+### Added channel MagicTV, removed from further search
+### Added channel Mezzo, removed from further search
+### Mezzo list.remove(x): x not in list
+### Added channel MTVRocks, removed from further search
+### Added channel MTVHits, removed from further search
+### Added channel MyZen, removed from further search
+### Added channel music, removed from further search
+### Added channel MotoSportHD, removed from further search
+### Added channel MedicalChannel, removed from further search
+### Added channel MovieSTAR, removed from further search
+### Added channel MTVLiveHD, removed from further search
+### Added channel MAD, removed from further search
+### Added channel Nova, removed from further search
+### Added channel NovaSport, removed from further search
+### Added channel NatGeo, removed from further search
+### Added channel NatGeoWild, removed from further search
+### Added channel NickJr, removed from further search
+### Added channel Nickelodeon, removed from further search
+### Added channel news, removed from further search
+### Added channel Outdoor, removed from further search
+### Added channel OtBlizoHD, removed from further search
+### Added channel PerviyKanal, removed from further search
+### Added channel PlanetaFolk, removed from further search
+### Added channel Planeta, removed from further search
+### Added channel PlanetaHD, removed from further search
+### Added channel PVTV, removed from further search
+### Added channel Trakiq, removed from further search
+### Added channel porn, removed from further search
+### Added channel RING, removed from further search
+### Added channel Rimeks, removed from further search
+### Added channel Ribalka, removed from further search
+### Added channel Rodina, removed from further search
+### Added channel Skat, removed from further search
+### Added channel SportPlusHD, removed from further search
+### Added channel TheVoice, removed from further search
+### Added channel TV1, removed from further search
+### TV1 list.remove(x): x not in list
+### Added channel Travel, removed from further search
+### Added channel TravelHD, removed from further search
+### Added channel TVT, removed from further search
+### Added channel TiankovFolk, removed from further search
+### Added channel TraceSportStars, removed from further search
+### Added channel TVPlus, removed from further search
+### Added channel TV1000, removed from further search
+### Added channel TravelChannel, removed from further search
+### Added channel TLC, removed from further search
+### Added channel Telekabel, removed from further search
+### Added channel The World, removed from further search
+### The World list.remove(x): x not in list
+### Added channel VTV, removed from further search
+### Added channel ViasatExplorer, removed from further search
+### Added channel ViasatHistory, removed from further search
+### Added channel ViasatNature, removed from further search
+### Added channel VH1, removed from further search
+### Added channel VH1Classic, removed from further search
+### Added channel VIVACOM Arena, removed from further search
+### VIVACOM Arena list.remove(x): x not in list
+### Added channel WorldFashionChannel, removed from further search
+### Added channel DeutscheWelle, removed from further search
+### Added channel KBSWorld, removed from further search
+### Added channel GINXTV, removed from further search
+### Added channel iConcerts, removed from further search
+### Added channel CMusicTV, removed from further search
+### Added channel mezzolivehd, removed from further search
+### Added channel RussiaToday, removed from further search
+### Added channel CCTVNews, removed from further search
+### Added channel mad, removed from further search
+### Added channel DEVIVA, removed from further search
+### Added channel DEJukeBox, removed from further search
+### Added channel DEDeluxeMusic, removed from further search
+### Added channel DEZDFInfo, removed from further search
+### Added channel DEZDFKultur, removed from further search
+### Added channel DEZDFNeo, removed from further search
+### Added channel ArirangTV, removed from further search
+### Added channel Sci-FiTelly, removed from further search
+### Added channel AlienInvasion, removed from further search
+### Added channel FilmboxArthouseHD, removed from further search
+### Added channel 360TuneBoxHD, removed from further search
+### Added channel FastnFunBoxHD, removed from further search
+### Added channel FashionBox, removed from further search
+### Added channel NTV-Public, removed from further search
+### Added channel NTV-Education, removed from further search
+### Added channel NTV-Media, removed from further search
+### Added channel PK-test, removed from further search
+### Added channel FP-test, removed from further search
+### Added channel PIK, removed from further search
+### Added channel MusicBoxTV, removed from further search
+### Added channel MusicBoxRU, removed from further search
+### Added channel MusicBoxUA, removed from further search
+### Added channel RUMTV, removed from further search
+### Added channel RusongTV, removed from further search
+### Added channel 1HD, removed from further search
+### Added channel FashionOneHD, removed from further search
+### Added channel NHKWorld, removed from further search
+### Added channel E4, removed from further search
+### Added channel BBC1, removed from further search
+### Added channel CBBC, removed from further search
+### Added channel CBSRealityUK, removed from further search
+### Added channel CBSDramaUK, removed from further search
+### Extracted 195 channels
+### Parsing file: russian-guide.xml
+### Added channel Россия 1, removed from further search
+### Added channel НТВ, removed from further search
+### Added channel ТНТ, removed from further search
+### Added channel РЕН ТВ, removed from further search
+### Added channel СТС, removed from further search
+### Added channel Ю, removed from further search
+### Added channel МАТЧ! Футбол 1, removed from further search
+### Added channel BBC World, removed from further search
+### Added channel Новый Канал, removed from further search
+### Added channel СТБ, removed from further search
+### Added channel ТЕТ, removed from further search
+### Added channel Тонис, removed from further search
+### Added channel Охота и рыбалка, removed from further search
+### Added channel Русский Экстрим, removed from further search
+### Added channel Телекафе, removed from further search
+### Added channel Живи, removed from further search
+### Added channel Россия 24, removed from further search
+### Added channel РТВ - Наше кино, removed from further search
+### Added channel ТБН, removed from further search
+### Added channel РТР Планета СНГ, removed from further search
+### Added channel Food Network, removed from further search
+### Added channel Матч ТВ, removed from further search
+### Added channel МАТЧ! Футбол 2, removed from further search
+### Added channel Дом кино, removed from further search
+### Added channel Музыка Первого, removed from further search
+### Added channel Наш Футбол HD, removed from further search
+### Added channel Русский Иллюзион, removed from further search
+### Added channel RTVi, removed from further search
+### Added channel НТВ-Мир, removed from further search
+### Added channel 5 канал (Украина), removed from further search
+### Added channel ICTV (Украина), removed from further search
+### Added channel НТН (Украина), removed from further search
+### Added channel Еврокино, removed from further search
+### Added channel France 24, removed from further search
+### Added channel Наука 2.0, removed from further search
+### Added channel Russian Travel Guide (RTG TV), removed from further search
+### Added channel Первый канал. (Европа), removed from further search
+### Added channel TV1000 Premium HD, removed from further search
+### Added channel TV1000 Megahit HD, removed from further search
+### Added channel TV1000 Comedy HD, removed from further search
+### Added channel Viasat Nature/History HD, removed from further search
+### Added channel Россия HD, removed from further search
+### Added channel Первый HD, removed from further search
+### Added channel МАТЧ! Футбол 3, removed from further search
+### Added channel Армения ТВ, removed from further search
+### Added channel Моя Планета, removed from further search
+### Added channel 112 Украина, removed from further search
+### Added channel KiKA, removed from further search
+### Added channel Das Erste, removed from further search
+### Added channel ТВН - ТВ Центр, removed from further search
+### Extracted 50 channels
+### Parsing file: serbian-guide.xml
+### Added channel Arena Sport 1, removed from further search
+### Added channel Arena Sport 2, removed from further search
+### Added channel Arena Sport 3, removed from further search
+### Added channel Arena Sport 4, removed from further search
+### Added channel Arena Sport 5, removed from further search
+### Added channel Arena Sport 1 HR, removed from further search
+### Added channel Arena Sport 2 HR, removed from further search
+### Added channel Arena Sport 3 HR, removed from further search
+### Added channel Arena Sport 4 HR, removed from further search
+### Added channel Arena Sport 5 HR, removed from further search
+### Added channel Sport Klub 1, removed from further search
+### Added channel Sport Klub 2, removed from further search
+### Added channel Sport Klub 3, removed from further search
+### Added channel Sport Klub 4, removed from further search
+### Added channel Sport Klub 5, removed from further search
+### Added channel Sport Klub 6, removed from further search
+### Added channel Sport Klub Golf, removed from further search
+### Added channel Sport Klub HD, removed from further search
+### Added channel Sport Klub 1 HR, removed from further search
+### Added channel Sport Klub 2 HR, removed from further search
+### Added channel Pink Western, removed from further search
+### Added channel Pink Classic, removed from further search
+### Added channel Pink Movies, removed from further search
+### Added channel Pink Romance, removed from further search
+### Added channel Pink Thriller, removed from further search
+### Added channel Pink Action, removed from further search
+### Added channel Pink Crime & Mystery, removed from further search
+### Added channel Pink Sci Fi & Fantasy, removed from further search
+### Added channel Pink Comedy, removed from further search
+### Added channel Pink Horror, removed from further search
+### Added channel Pink Family, removed from further search
+### Added channel Pink Premium, removed from further search
+### Added channel Pink Film, removed from further search
+### Added channel Pink Soap, removed from further search
+### Added channel Pink Serije, removed from further search
+### Added channel Pink World Cinema, removed from further search
+### Added channel Pink Kids, removed from further search
+### Added channel Pink Show, removed from further search
+### Added channel Pink Style, removed from further search
+### Added channel Pink Extra, removed from further search
+### Added channel Pink World, removed from further search
+### Added channel Pink Reality, removed from further search
+### Added channel Pink Zabava, removed from further search
+### Added channel Pink Plus, removed from further search
+### Added channel Pink Fashion, removed from further search
+### Added channel Pink Live, removed from further search
+### Added channel Travel Channel, removed from further search
+### Added channel Russia Today Documentary, removed from further search
+### Added channel CCTV9 Documentary, removed from further search
+### Added channel Pink Folk 1, removed from further search
+### Added channel Pink Folk 2, removed from further search
+### Added channel Pink Hits 1, removed from further search
+### Added channel Pink Hits 2, removed from further search
+### Added channel Pink Koncert, removed from further search
+### Added channel Pink Parada, removed from further search
+### Added channel Pink&Roll, removed from further search
+### Added channel Pink Music 1, removed from further search
+### Added channel Pink Music 2, removed from further search
+### Added channel Pink Music 3, removed from further search
+### Added channel Pink Music 4, removed from further search
+### Added channel Pink Music 5, removed from further search
+### Added channel Pink Nostalgie, removed from further search
+### Added channel Euronews, removed from further search
+### Added channel Al Jazeera, removed from further search
+### Added channel Dorcel, removed from further search
+### Added channel Brazzers, removed from further search
+### Added channel Hustler, removed from further search
+### Added channel Hustler HD, removed from further search
+### Added channel Comedy Central UK, removed from further search
+### Added channel Discovery Turbo UK, removed from further search
+### Added channel Motors TV UK, removed from further search
+### Added channel H2 UK, removed from further search
+### Added channel Sky 1 UK, removed from further search
+### Added channel Sky 2 UK, removed from further search
+### Added channel Sky Movies Comedy UK, removed from further search
+### Added channel Sky Movies Family UK, removed from further search
+### Added channel Sky Movies Premiere UK, removed from further search
+### Added channel Sky Movies Select UK, removed from further search
+### Added channel Setanta Sports Ireland 1 UK, removed from further search
+### Added channel Sky Sports 1 UK, removed from further search
+### Added channel Sky Sports 2 UK, removed from further search
+### Added channel Sky Sports 3 UK, removed from further search
+### Added channel Sky Sports 4 UK, removed from further search
+### Added channel Sky Sports 5 UK, removed from further search
+### Added channel Sky Sports F1 UK, removed from further search
+### Added channel Premier Sports UK, removed from further search
+### Added channel BT Sport 1 UK, removed from further search
+### Added channel BT Sport 2 UK, removed from further search
+### Added channel BOX Nation UK, removed from further search
+### Added channel Sky News UK, removed from further search
+### Added channel NHK World UK, removed from further search
+### Added channel CNBC UK, removed from further search
+### Added channel Racing UK, removed from further search
+### Added channel Rai 1 IT, removed from further search
+### Added channel Rai 2 IT, removed from further search
+### Added channel Sky Cinema DE, removed from further search
+### Added channel Sky Hits DE, removed from further search
+### Added channel Sky Action DE, removed from further search
+### Added channel MGM DE, removed from further search
+### Added channel TNT Film DE, removed from further search
+### Added channel Sky Atlantic DE, removed from further search
+### Added channel Syfy DE, removed from further search
+### Added channel 13th Street DE, removed from further search
+### Added channel TNT Serie DE, removed from further search
+### Added channel ZDF DE, removed from further search
+### Added channel RTL DE, removed from further search
+### Added channel RTL 2 DE, removed from further search
+### Added channel Super RTL DE, removed from further search
+### Added channel Sixx DE, removed from further search
+### Added channel ProSieben DE, removed from further search
+### Added channel Sat.1 DE, removed from further search
+### Added channel 3sat DE, removed from further search
+### Added channel Arte DE, removed from further search
+### Added channel Kabel Eins DE, removed from further search
+### Added channel Sky Sport Austria DE, removed from further search
+### Added channel Sky Fußball Bundesliga DE, removed from further search
+### Added channel Sport1+ DE, removed from further search
+### Added channel Sport1 US DE, removed from further search
+### Added channel Eurosport 1 DE, removed from further search
+### Added channel National Geographic DE, removed from further search
+### Added channel Nat Geo Wild DE, removed from further search
+### Added channel Discovery Channel DE, removed from further search
+### Added channel History Channel DE, removed from further search
+### Added channel Bein Sports, removed from further search
+### Added channel Bein Sports 1, removed from further search
+### Added channel Bein Sports 2, removed from further search
+### Added channel Bein Sports 3, removed from further search
+### Added channel Bein Sports 4, removed from further search
+### Added channel beIN Sport 1 (Fr), removed from further search
+### Added channel beIN Sport 2 (Fr), removed from further search
+### Added channel beIN Sport 3 (Fr), removed from further search
+### Added channel France 2 (Fr), removed from further search
+### Added channel France 3 (Fr), removed from further search
+### Added channel RTL9 (Fr), removed from further search
+### Added channel Viasat Sport Sverige, removed from further search
+### Added channel ORF 1, removed from further search
+### Added channel ORF 2, removed from further search
+### Added channel Lig TV 1 (Tr), removed from further search
+### Added channel Lig TV 2 (Tr), removed from further search
+### Added channel Lig TV 3 (Tr), removed from further search
+### Added channel Digi Sport 1 (Ro), removed from further search
+### Added channel Digi Sport 2 (Ro), removed from further search
+### Added channel Digi Sport 3 (Ro), removed from further search
+### Added channel FOX Sports 1 (Nl), removed from further search
+### Added channel FOX Sports 2 (Nl), removed from further search
+### Added channel FOX Sports 3 (Nl), removed from further search
+### Added channel FOX Sports 4 (Nl), removed from further search
+### Added channel FOX Sports 5 (Nl), removed from further search
+### Extracted 148 channels
+### Zipping epg.xml file to epg.xml.gz
+### 393 channels saved in file epg.xml (15.3 MB)
