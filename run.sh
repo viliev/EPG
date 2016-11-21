@@ -12,13 +12,16 @@ echo "Using argument=$arg"
 ./generate.py ${arg}
 
 cp ./epg.xml ~/EPG/
-cp ./epg.xml ~/EPG/alltv-guide.xml
-cp ./epg.xml.gz ~/EPG/
-cp ./epg.xml.gz ~/EPG/alltv-guide.xml.gz
+cd ~/EPG/
+
+gzip < epg.xml > epg.xml.gz
+gzip < epg.xml > alltv-guide.xml.gz
+
+#cp ./epg.xml.gz ~/EPG/
+#cp ./epg.xml.gz ~/EPG/alltv-guide.xml.gz
 
 
 #commit EPG update
-cd ~/EPG/
 git add -A
 git commit -m "Regular EPG update"
 git push
