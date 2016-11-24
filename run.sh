@@ -1,4 +1,5 @@
 #!/bin/bash -e
+
 arg=""
 if [[ $@ == "-f" ]]; then echo "Forced download!"; arg="-f"; fi
 
@@ -11,6 +12,8 @@ cd ~/epg-collector/
 echo "Using argument=$arg"
 ./generate.py ${arg}
 
+./validate.py
+
 cp ./epg.xml ~/EPG/
 cd ~/EPG/
 
@@ -22,6 +25,8 @@ gzip < epg.xml > alltv-guide.xml.gz
 
 
 #commit EPG update
+echo "Commiting changes to GIT server"
 git add -A
 git commit -m "Regular EPG update"
+echo "Pushing changes to GIT server"
 git push
