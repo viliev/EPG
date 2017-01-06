@@ -12,10 +12,10 @@ cd ~/epg-collector/
 echo "Using argument=$arg"
 ./generate.py ${arg}
 
-./validate.py
+#./validate.py
 
 cp ./epg.xml ~/EPG/
-cp ./validation.json ~/EPG/
+#cp ./validation.json ~/EPG/
 cd ~/EPG/
 
 gzip < epg.xml > epg.xml.gz
