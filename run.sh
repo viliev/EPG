@@ -8,16 +8,17 @@ cd ~/EPG/
 git pull
 
 #Run the collector
-cd ~/epg-collector/
-echo "Using argument=$arg"
-./generate.py ${arg}
+#cd ~/epg-collector/
+#echo "Using argument=$arg"
+#./generate.py ${arg}
 
 #./validate.py
 
-cp ./epg.xml ~/EPG/
+#cp ./epg.xml ~/EPG/
 #cp ./validation.json ~/EPG/
-cd ~/EPG/
+#cd ~/EPG/
 
+wget http://sov02lr02.eu.hpecorp.net/guides/epg.xml -O epg.xml
 gzip < epg.xml > epg.xml.gz
 gzip < epg.xml > alltv-guide.xml.gz
 
