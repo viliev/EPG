@@ -1,5 +1,3 @@
 Forced download!
 Already up-to-date.
 Commiting changes to GIT server
-# On branch master
-nothing to commit (working directory clean)
