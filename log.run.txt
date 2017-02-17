@@ -1,8 +1,3 @@
 Forced download!
 Already up-to-date.
 Commiting changes to GIT server
-[master 7d3562c] Regular EPG update
- 4 files changed, 70226 insertions(+), 72323 deletions(-)
- rewrite alltv-guide.xml.gz (85%)
- rewrite epg.xml.gz (85%)
-Pushing changes to GIT server
