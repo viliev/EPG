@@ -1,7 +1,3 @@
 Forced download!
-Updating 018fa05..934cb62
-Fast-forward
- _config.yml |    1 +
- 1 file changed, 1 insertion(+)
- create mode 100644 _config.yml
+Already up-to-date.
 Commiting changes to GIT server
